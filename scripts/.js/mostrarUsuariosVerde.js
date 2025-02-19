@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadUsers() {
-    fetch('http://192.168.1.141/scripts/.php/getUsersVerde.php')
+    fetch('http://westeros/scripts/.php/getUsersVerde.php')
 	.then(response => response.json())
     .then(data => {
         const usersContainer = document.querySelector('.user-comments');

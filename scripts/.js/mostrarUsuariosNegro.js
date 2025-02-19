@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadUsers() {
-    fetch('http://192.168.1.141/scripts/.php/getUsersNegro.php')
+    fetch('http://westeros/scripts/.php/getUsersNegro.php')
 	.then(response => response.json())
     .then(data => {
 	console.log(data);
