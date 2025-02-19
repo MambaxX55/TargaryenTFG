@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../../images/equipoVerde.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    font-family: 'Cinzel', serif;
+    font-size: 1.8em;
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2em;
+    margin-left: 15px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.team-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.team-title h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.leader-description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.leader-photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.leader-text {
+    width: 50%;
+}
+
+.leader-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.leader-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.comments {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.comments h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.user-comments {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.comment {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.comment:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment strong {
+    color: #2E8B57;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', serif;
+}
+
+.user-email {
+    color: #a1a1a1;
+    font-size: 1em;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.comment-text {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: white;
+}

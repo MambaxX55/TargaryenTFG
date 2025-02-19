@@ -1,0 +1,64 @@
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../../images/forja.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+.maintenance {
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maintenance h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.maintenance p {
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #ccc;
+}

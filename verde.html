@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipo Negro - Westeros</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scripts/.css/estilosVerde.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-left">Proyecto Westeros</div>
+            <div class="header-right">
+                <a href="#" onclick="redirectToPage('negro')">Negro</a> |
+                <a href="#" onclick="redirectToPage('verde')">Verde</a> |
+                <a href="#" onclick="redirectToPage('votaciones')">Votar</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="team-title">
+        <h1>Equipo Verde</h1>
+    </section>
+
+    <section class="leader-description">
+        <div class="leader-photo">
+            <img src="images/aegon.jpg" alt="Líder del equipo">
+        </div>
+        <div class="leader-text">
+            <h2>Líder del Equipo</h2>
+            <p>El realísimo Aegon Targaryen, el segundo de su nombre, es la mejor opción para dirigir el proyecto Westeros. Fielmente asistido por la gran y experimentada Mano del Director de Proyecto, Otto Hightower, conseguirá el total éxito del proyecto. No olvidemos que es el primer sucesor varón del antiguo director, Viserys. Si crees en la justicia y las leyes, ¡vota a Aegon! ¡Vota al equipo verde!</p>
+        </div>
+    </section>
+
+    <section class="comments">
+        <h2>Comentarios de los Desarrolladores</h2>
+        <div id="user-list" class="user-comments">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Proyecto Westeros</p>
+    </footer>
+
+    <script src="scripts/.js/mostrarUsuariosVerde.js"></script>
+    <script src="scripts/.js/redirect.js"></script>
+</body>
+</html>
